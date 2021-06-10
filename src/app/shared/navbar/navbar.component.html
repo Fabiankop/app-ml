@@ -1,0 +1,39 @@
+<header>
+
+    <div id="navbar" class="py-2">
+
+            <div class=" col-10 row mx-auto justify-content-center align-items-center">
+    
+                <div class="col-1">
+                    
+                    <a href="//www.mercadolibre.com.co">
+                        <img src="../../../assets/imgs/logo-ml.png" alt="logo mercado libre"/>
+                    </a>
+                    
+                </div>
+        
+                <div class="col-9">
+    
+                    <form (ngSubmit)="onSubmit()" autocomplete="off" class="d-flex s-form">
+    
+                        <input type="text"
+                            name="term"
+                            class="form-control"
+                            [(ngModel)]= "term"
+                            placeholder="Nunca dejes de buscar">
+    
+                        <button type="submit">
+                            <img src="../../../assets/imgs/search-icon.png" alt="icono de busqueda"/>
+                        </button>
+    
+                    </form>
+                        
+                </div>
+
+        </div>
+
+        
+    
+    </div>
+
+</header>

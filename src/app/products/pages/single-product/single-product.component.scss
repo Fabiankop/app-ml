@@ -1,0 +1,57 @@
+#main{
+
+    p{
+        font-size: 14px;
+    }
+
+    button{
+        background-color: #3483FA;
+        color: #fff;
+    }
+
+    .py-16{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+    .pb-16{
+        padding-bottom: 16px;
+    }
+
+    .py-32{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .p-32{
+        padding: 32px;
+    }
+
+    .rs-content{
+        background-color: #fff;
+
+        .row{
+            padding: 16px;
+
+            .img-content{
+                max-width: 680px;
+            } 
+
+            h2{
+                font-size: 24px;
+            }
+    
+            h3{
+                font-size: 46px;
+            }
+    
+            h5{
+                font-size: 14px;
+            }
+        }
+
+        
+    
+    }
+
+}

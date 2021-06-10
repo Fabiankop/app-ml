@@ -1,0 +1,54 @@
+<main id="main" class="container">
+
+    <div class="row mx-auto justify-content-center align-items-center">
+
+        <div class="col-10">
+            <p class="py-16 mb-0"> {{categoryName}} </p>
+        </div>
+
+    </div>
+
+    <div class="row mx-auto justify-content-center align-items-start">
+
+        <div class="col-10 rs-content p-32">
+
+            <div class="row">
+
+                <div class="col-8 ">
+
+                    <div class="img-content">
+
+                        <img [src]="objMercadoLibre.pictures" [alt]="objMercadoLibre.title">
+
+                    </div>
+        
+                </div>
+
+                <div class="col">
+        
+                    <h5 class="pb-16"> {{objMercadoLibre.condition | uppercase}} - {{objMercadoLibre.sold_quantity}} vendidos</h5>
+                    <h2> {{objMercadoLibre.title}} </h2>
+                    <h3 class="py-32"> $ {{objMercadoLibre.price.amount | number: '1.0-0'  }} </h3>
+                    <button class="btn w-100" type="button"> Comprar </button>
+                    
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-8">
+
+                    <h2>Descripción del producto</h2>
+
+                    <p class="py-32"> {{descriptionPlainTex}} </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
